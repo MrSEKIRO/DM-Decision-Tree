@@ -1,0 +1,37 @@
+[
+  {
+    "criterion": "Best_Test_Accuracy",
+    "chosen_max_depth": 17,
+    "score": 0.945360609539714
+  },
+  {
+    "criterion": "One_Std_Rule",
+    "chosen_max_depth": 14,
+    "score": 0.9404780768123949
+  },
+  {
+    "criterion": "Gap_Rule_a=0.5",
+    "chosen_max_depth": 14,
+    "score": 0.9332804026304584
+  },
+  {
+    "criterion": "Max_Test_F1",
+    "chosen_max_depth": 17,
+    "score": 0.9449960598896769
+  },
+  {
+    "criterion": "Max_Test_BalancedAcc",
+    "chosen_max_depth": 17,
+    "score": 0.945360609539714
+  },
+  {
+    "criterion": "Max_Test_AUC",
+    "chosen_max_depth": 10,
+    "score": 0.9739555706838591
+  },
+  {
+    "criterion": "Min_Size_Acc>=0.93",
+    "chosen_max_depth": 10,
+    "score": 0.9332533138503287
+  }
+]

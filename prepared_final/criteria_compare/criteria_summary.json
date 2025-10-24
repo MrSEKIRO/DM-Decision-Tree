@@ -1,0 +1,56 @@
+[
+  {
+    "criterion": "gini",
+    "chosen_max_depth": 14,
+    "node_count": 1835,
+    "tree_depth": 14,
+    "train_accuracy": 0.9618495903136579,
+    "train_f1": 0.9613738441215324,
+    "train_balanced_accuracy": 0.9618495903136579,
+    "train_auc": 0.9921604343409516,
+    "test_accuracy": 0.9428034651915249,
+    "test_f1": 0.9421452702702703,
+    "test_balanced_accuracy": 0.9428034651915249,
+    "test_auc": 0.9697711199782308,
+    "confusion_matrix": [
+      [
+        9142,
+        439
+      ],
+      [
+        657,
+        8924
+      ]
+    ],
+    "cv_best_mean": 0.942474333991911,
+    "cv_best_std": 0.002053119079565123,
+    "cv_threshold_one_std": 0.940421214912346
+  },
+  {
+    "criterion": "entropy",
+    "chosen_max_depth": 15,
+    "node_count": 2401,
+    "tree_depth": 15,
+    "train_accuracy": 0.9655419863263921,
+    "train_f1": 0.9653489379009932,
+    "train_balanced_accuracy": 0.9655419863263921,
+    "train_auc": 0.9959259168150574,
+    "test_accuracy": 0.9421250391399645,
+    "test_f1": 0.9420191352538296,
+    "test_balanced_accuracy": 0.9421250391399645,
+    "test_auc": 0.9697763272017044,
+    "confusion_matrix": [
+      [
+        9044,
+        537
+      ],
+      [
+        572,
+        9009
+      ]
+    ],
+    "cv_best_mean": 0.9421481497471398,
+    "cv_best_std": 0.0028085688809432185,
+    "cv_threshold_one_std": 0.9393395808661966
+  }
+]
